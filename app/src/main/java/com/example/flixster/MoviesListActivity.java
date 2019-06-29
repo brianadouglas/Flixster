@@ -95,6 +95,9 @@ public class MoviesListActivity extends AppCompatActivity {
                 try {
                     JSONArray results = response.getJSONArray("results");
                     // iterate through result set and create Movie objects
+
+                    // TODO - allow for the genres to be displayed on click
+
                     for (int i = 0; i < results.length(); i++) {
                         Movie movie = new Movie(results.getJSONObject(i));
                         movies.add(movie);
@@ -114,6 +117,7 @@ public class MoviesListActivity extends AppCompatActivity {
             }
         });
     }
+
 
 
     //access the configuration endpoint - gets the configuration from the API

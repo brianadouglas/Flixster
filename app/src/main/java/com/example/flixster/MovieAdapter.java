@@ -105,14 +105,18 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
         // create the field - track view objects (The things in the layout)
         // caching references to these so that they can be filled with different data
         // as the user scrolls through the list
+
         ImageView ivPosterImage;
         ImageView ivBackdropImage;
         TextView tvTitle;
         TextView tvOverview;
 
 
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
+
+            // look up objects by id
 
             // look up objects by id
             ivPosterImage =  (ImageView) itemView.findViewById(R.id.ivPosterImage);

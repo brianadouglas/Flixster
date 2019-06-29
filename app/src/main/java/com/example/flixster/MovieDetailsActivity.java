@@ -42,4 +42,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         rbVoteAverage.setRating(voteAverage = voteAverage > 0 ? voteAverage / 2.0f : voteAverage);
 
     }
+
+    // to get the genre of the movie
+
 }
