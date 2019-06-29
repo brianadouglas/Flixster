@@ -19,8 +19,6 @@ The following **stretch** features are implemented:
 * [ ] Allow user to view details of the movie including ratings and popularity within a separate activity
 * [ ] Improved the user interface by experimenting with styling and coloring.
 * [ ] Apply rounded corners for the poster or background images using [Glide transformations](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#transformations)
-* [ ] Apply the popular [Butterknife annotation library](http://guides.codepath.org/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
-* [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView from the details screen.
 
 The following **additional** features are implemented:
 
@@ -30,7 +28,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/brianadouglas/Flixster/raw/master/demo1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/brianadouglas/Flixster/raw/master/demo2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -38,6 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 My main challenges came with the configuration of the views. The constraints weren't that intuitive and it caused me to have to fiddle with the layouts for a while.
 Also, some of my class names conflicted with those already in Androidx, which then to conflict resolution errors that took me a while to figure out.
+I also tried to implement the Butterknife stretch step but kept running into issues with version conflicts of several of the packages.
 
 ## Open-source libraries used
 
